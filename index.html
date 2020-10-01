@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Brought to you by Silas Lowe</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+
+  <body>
+    <main id="container">
+      <!-- header -->
+
+      <header>
+        <img class="logo" src="" alt="" />
+        <h1>Daily Journal</h1>
+      </header>
+
+      <!-- submission form -->
+      <div class="form">
+        <h3>Journal Submission Form</h3>
+        <form action="">
+          <div class="form__date-topic-mood">
+            <label for="date">Date</label>
+            <input class="form__date" type="date" name="date" />
+            <label for="topic">Topic</label>
+            <input class="form__topic" type="text" name="topic" placeholder="Existential Dread" />
+            <label for="mood">Choose a Mood</label>
+            <select class="form__mood" name="mood">
+              <option value="sad">Sad</option>
+              <option value="despondent">Despondent</option>
+              <option value="morose">Morose</option>
+              <option value="sullen">Sullen</option>
+              <option value="unsmiling">Unsmiling</option>
+              <option value="disconsolate">disconsolate</option>
+            </select>
+          </div>
+          <textarea rows="18" cols="75"></textarea>
+          <div class="submit-container">
+            <input class="form__submit" type="submit" value="submit" />
+          </div>
+        </form>
+      </div>
+      <article class="past">
+        <h3>Past Entries</h3>
+        <div class="past__entries">
+          <div class="past__entry">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum maxime delectus
+              molestiae fugit at officia iure mollitia quis, quidem, nisi impedit minus ipsa
+              accusamus beatae ad quos quo, esse repudiandae. Commodi animi reiciendis neque fugiat
+              sint officia quae, sed quas itaque nobis doloribus eius ipsa totam, quia pariatur
+              quibusdam hic delectus accusamus? Omnis dolore natus, facere, possimus qui maxime
+              repellendus sint exercitationem laboriosam dolorum eos. Quae molestias fuga officia
+              quos ea culpa sapiente tenetur!
+            </p>
+          </div>
+
+          <div class="seperator"></div>
+
+          <div class="past__entry">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum maxime delectus
+              molestiae fugit at officia iure mollitia quis, quidem, nisi impedit minus ipsa
+              accusamus beatae ad quos quo, esse repudiandae. Commodi animi reiciendis neque fugiat
+              sint officia quae, sed quas itaque nobis doloribus eius ipsa totam, quia pariatur
+              quibusdam hic delectus accusamus? Omnis dolore natus, facere, possimus qui maxime
+              repellendus sint exercitationem laboriosam dolorum eos. Quae molestias fuga officia
+              quos ea culpa sapiente tenetur!
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <footer>©2020 <a href="https://github.com/silaslowe">github.com/silaslowe</a></footer>
+    </main>
+
+    <script type="module" src="./scripts/main.js"></script>
+  </body>
+</html>

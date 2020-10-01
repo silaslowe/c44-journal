@@ -1,0 +1,23 @@
+.past {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.past__entries {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.seperator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em 0 1em 0;
+  width: 20%;
+  border-bottom: 3px solid black;
+}

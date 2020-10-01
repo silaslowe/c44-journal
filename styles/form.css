@@ -1,0 +1,25 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__date-topic-mood {
+  margin: 1em 0 1em 0;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form__submit {
+  width: 20%;
+  margin: 1em 0 1em 0;
+}
